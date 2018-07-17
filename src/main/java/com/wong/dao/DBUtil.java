@@ -11,7 +11,7 @@ class DBUtil {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");//加载驱动
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mailSys?useSSL=false", "root", "0220");//建立连接
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mailSys?useSSL=false", "root", "");//建立连接
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
